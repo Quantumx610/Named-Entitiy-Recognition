@@ -20,7 +20,7 @@ The model consists of the following layers:
 * LSTM layer: This layer further processes the output of the Bidirectional LSTM layer, capturing long-term dependencies in the sequence.
 * TimeDistributed Dense layer: This layer applies a dense layer to each time step of the output of the LSTM layer, predicting the tag for each word.
 
-  [Model Architecture](model.png)
+  ![Model Architecture](model.png)
   
 ## Training
 
